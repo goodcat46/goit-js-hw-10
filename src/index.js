@@ -7,7 +7,7 @@ import card from './card.hbs'
 import './css/styles.css';
 import { JsonCountriesApi } from './jsonCountryApi';
 
-const DEBOUNCE_DELAY = 500;
+const DEBOUNCE_DELAY = 300;
 const refs = {
   inputEl: document.querySelector('#search-box'),
   listEl: document.querySelector('.country-list'),
